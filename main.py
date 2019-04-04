@@ -15,6 +15,9 @@ import pressure_transducer as pt
 from SendToFlask import sendData
 ## import Server   # doesn't work
 # import QuickDisconnect as qd
+import Vent as vent
+import QuickDisconnect as qd
+
 try:
     import RPi.GPIO as GPIO  # RPi.GPIO documentation: https://sourceforge.net/p/raspberry-gpio-python/wiki/
 except:
